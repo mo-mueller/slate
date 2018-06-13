@@ -1,4 +1,16 @@
 #!/usr/bin/env bash
 
-bundle exec middleman build --clean
-cp -r build/* /var/www/vhosts/euve260381.serverprofi24.de/slate.euve260381.serverprofi24.de
+host="62.75.211.114"
+user=root
+
+echo "Push to github"
+git add .
+git commit -m "$1"
+git push origin master
+
+echo "Deploy to live..."
+ssh -o StrictHostKeyChecking=no -p 22 ${user}@${host} "cd apps/slate; \
+                                                       git pull origin master; \
+                                                       ./deploy_live.sh"
+echo "Done."
+
