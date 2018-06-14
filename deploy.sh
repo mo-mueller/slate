@@ -11,7 +11,7 @@ git add .
 git commit -m "$message"
 git push origin master
 
-echo "Deploy to live..."
+echo "Deploy to $environment..."
 ssh -o StrictHostKeyChecking=no -p 22 ${user}@${host} "cd apps/slate; \
                                                        git pull origin master; \
                                                        ./deploy_server.sh $environment"
