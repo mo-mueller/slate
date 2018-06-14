@@ -2,10 +2,10 @@
 title: API Reference
 
 toc_footers:
-  - <a href='https://github.com/lord/slate'>Documentation Powered by Slate</a>
+  - <a href='/impressum.html'>Impressum</a>
 
 includes:
-  - plugin1
+  - plugins
 
 search: true
 ---

@@ -1,0 +1,5 @@
+---
+includes:
+  - plugin1
+---
+
