@@ -1,11 +1,11 @@
 ---
-title: API Reference
+title: Plugins
 
 toc_footers:
   - <a href='/impressum.html'>Impressum</a>
 
 includes:
-  - plugins
+  - plugin1
 
 search: true
 ---
