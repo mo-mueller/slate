@@ -5,7 +5,7 @@ toc_footers:
   - <a href='/impressum.html'>Impressum</a>
 
 includes:
-  - plugin1
+  - ApiLogger
 
 search: true
 ---
