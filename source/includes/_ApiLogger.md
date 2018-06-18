@@ -16,7 +16,8 @@ Mit diesem Plugin loggen Sie alle Anfragen an die API Ihrer Shopware Installatio
 
 ## Installation
 
-Das Plugin kann normal über das Shopware Backend installiert werden. Mehr dazu finden Sie in der [Bedienungsanleitung von Shopware](https://community.shopware.com/Plugin-Manager-ab-Shopware-5_detail_1856_643.html).
+Das Plugin kann normal über das Shopware Backend installiert werden. Mehr dazu finden Sie in der
+<a href="https://community.shopware.com/Plugin-Manager-ab-Shopware-5_detail_1856_643.html" target="_blank">Bedienungsanleitung von Shopware</a>.
 
 ## Konfiguration
 
@@ -49,3 +50,15 @@ Wenn Sie über den Plugin Manager die Konfiguration des API Logger Plugins öffn
 ## Benutzung
 
 ## Screenshots
+
+### Log-Übersicht
+
+![Übersicht](../images/listing.JPG "Log-Übersicht")
+
+### Detail-Ansicht
+
+![Übersicht](../images/detail.JPG "Detail-Ansicht")
+
+### Plugin-Konfiguration
+
+![Übersicht](../images/config.JPG "Plugin Konfiguration")
