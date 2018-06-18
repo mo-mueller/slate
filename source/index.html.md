@@ -2,7 +2,7 @@
 title: M--M
 
 toc_footers:
-  - <a href='/impressum.html'>Impressum</a>
+  - <a href='/static/impressum.html'>Impressum</a>
 
 includes:
   - ApiLogger
