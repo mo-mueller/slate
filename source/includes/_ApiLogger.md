@@ -50,7 +50,7 @@ Wenn Sie über den Plugin Manager die Konfiguration des API Logger Plugins öffn
 ## Benutzung
 
 Die Log-Übersicht finden Sie im Backend unter "Einstellungen->API Logger". Hier sehen Sie alle geloggten Anfragen absteigend
-nach Datum sortiert. Im linken Bereich des Fensters können die angezeigten Logs gefiltert werden, um sich zum Beispiel alle Logs 
+nach Datum sortiert. Im linken Bereich des Fensters können Sie die angezeigten Logs filtern, um zum Beispiel alle Logs 
 mit einem bestimmten HTTP-Code anzeigen zu lassen. Setzen Sie dafür den Haken neben dem jeweiligen Feld und geben Sie einen Wert
 ein. Bestätigen Sie mit einem Klick auf "Filter anwenden". In der Toolbar oben können Sie entweder ausgewählte Logs löschen
 oder alle Logs auf einmal. Die Suche funktioniert ähnlich wie der Filter, nur dass hier alle Felder nach dem eingegebenen Text
