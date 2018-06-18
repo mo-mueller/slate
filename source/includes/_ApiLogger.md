@@ -49,6 +49,24 @@ Wenn Sie über den Plugin Manager die Konfiguration des API Logger Plugins öffn
 
 ## Benutzung
 
+Die Log-Übersicht finden Sie im Backend unter "Einstellungen->API Logger". Hier sehen Sie alle geloggten Anfragen absteigend
+nach Datum sortiert. Im linken Bereich des Fensters können die angezeigten Logs gefiltert werden, um sich zum Beispiel alle Logs 
+mit einem bestimmten HTTP-Code anzeigen zu lassen. Setzen Sie dafür den Haken neben dem jeweiligen Feld und geben Sie einen Wert
+ein. Bestätigen Sie mit einem Klick auf "Filter anwenden". In der Toolbar oben können Sie entweder ausgewählte Logs löschen
+oder alle Logs auf einmal. Die Suche funktioniert ähnlich wie der Filter, nur dass hier alle Felder nach dem eingegebenen Text
+durchsucht werden. Über die Optionen-Spalte können einzelne Logs gelöscht werden und die Detail-Ansicht eines Logs geöffnet 
+werden. In der Detail-Ansicht haben sie Überblick über folgende Informationen:
+
+* Datum: Datum der Anfrage
+* HTTP-Code: <a href="https://de.wikipedia.org/wiki/HTTP-Statuscode" target="_blank">HTTP-Response-Code</a> der Anfrage
+* Methode: HTTP-Methode der Anfrage
+* Pfad: Adressierter Pfad der Anfrage
+* Controller: Adressierter Controller der Anfrage
+* Action: Adressierte Controller Action der Anfrage
+* Benutzer: Backend Benutzer, über den die Anfrage stattgefunden hat
+* Parameter: Parameter, die bei der Anfrage mit übergeben wurden
+* Ergebnis: Ergebnis der Anfrage (Antwort im JSON Format oder Fehlermeldung als Text) 
+
 ## Screenshots
 
 ### Log-Übersicht
